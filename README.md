@@ -43,7 +43,7 @@ The app spans **4 analytical sheets**, **1 bookmark**, and **1 story**, covering
 | `Nutra_Green_Sales.pdf` | Exported stories |
 | `Data_Model.png` |Screenshot of the Qlik data model |
 | `Nutra_Green_Sales_App_Demo.mp4` | 📹 Full narrated demo recording (~10-12 min) |
-| `Datasets` | csv files |
+| `Datasets` | Csv files |
 | `README.md` | This file |
 
 ---
