@@ -118,7 +118,7 @@ Customers ───────────────── WeatherData       
 
 ---
 
-### Sheet 2 — Product Sales Overview
+### Sheet 2 - Product Sales Overview
 > *"Where the product team and sales managers can really dig into the numbers."*
 
 **Key visuals:**
@@ -139,7 +139,7 @@ Customers ───────────────── WeatherData       
 
 ---
 
-### Sheet 3 — Product Overview
+### Sheet 3 - Product Overview
 > *"The strategic layer - combining treemap drill-down with Year-on-Year growth analysis."*
 
 **Key visuals:**
@@ -179,7 +179,7 @@ Sum({$<Year={'$(=Max(Year)-1)'}>} LineSalesAmount)) - 1
 
 ---
 
-### Sheet 4 — Customer Analysis
+### Sheet 4 - Customer Analysis
 > *"The most actionable sheet - built for account managers and customer success teams."*
 
 **Key visuals:**
@@ -238,7 +238,7 @@ active selections, making this presentation-ready without any external tools.
 
 ---
 
-#### Slide 1 — 2024 New Customers Analysis
+#### Slide 1 - 2024 New Customers Analysis
 
 **Visuals:** Sales by Country map | Sales & Margin by Region bar chart | Customers KPI | Margin KPI
 
@@ -252,7 +252,7 @@ active selections, making this presentation-ready without any external tools.
 
 ---
 
-#### Slide 2 — 2024 Product Analysis
+#### Slide 2 - 2024 Product Analysis
 
 **Visuals:** Sales by Region, Product Group and Sub Group treemap | Sales by Product Group bar chart (New only)
 
@@ -268,7 +268,7 @@ active selections, making this presentation-ready without any external tools.
 
 ---
 
-#### Slide 3 — 2024 Customer Overview
+#### Slide 3 - 2024 Customer Overview
 
 **Visuals:** YoY Sales KPI | Top 10 New Customers table | Sales by Customer and Product Group bar chart
 
