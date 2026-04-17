@@ -39,7 +39,7 @@ The app spans **4 analytical sheets**, **1 bookmark**, and **1 story**, covering
 
 | File | Description |
 |---|---|
-| `Nutra_Green_Sales.qvf` | Qlik application file — import directly into QCA |
+| `Nutra_Green_Sales.qvf` | Qlik application file - import directly into QCA |
 | `Nutra_Green_Sales.pdf` | Exported stories |
 | `Data_Model.png` |Screenshot of the Qlik data model |
 | `Nutra_Green_Sales_App_Demo.mp4` | 📹 Full narrated demo recording (~10-12 min) |
@@ -105,7 +105,7 @@ Customers ───────────────── WeatherData       
 - Sales KPI: **$32.69M** total | Margin KPI: **$18.92M** | Countries KPI: **21**
 - Sales by Region pie chart
 - % Customers pie chart (bubble radius driven by Population field)
-- Sales by Country map — area layer colored by Sales master measure
+- Sales by Country map - area layer colored by Sales master measure
 - Regional Sales by Month and Year line chart (Aug 2022 → Feb 2025)
 
 **Key Business Insights:**
@@ -197,13 +197,13 @@ Sum({$<Year={'$(=Max(Year)-1)'}>} LineSalesAmount)) - 1
 | Order Volume | `Count(Distinct [Order Number])` | Scatter bubble size, table |
 
 **Key Business Insights:**
-- **Target leads** at **$1.5M** in sales but with only **42 orders** — a large, infrequent buyer
+- **Target leads** at **$1.5M** in sales but with only **42 orders** - a large, infrequent buyer
   presenting supply chain and account dependency risk
 - **Userland at $1.39M** with only **12 orders** - an extreme concentration risk requiring
   dedicated account management
-- **All Top 5 customers far exceed the $80k Sales Target** — the reference line confirms
+- **All Top 5 customers far exceed the $80k Sales Target** - the reference line confirms
   strong performance at the top of the customer pyramid
-- The **scatter plot reveals 4-dimensional profitability** — sales, COGS, order volume,
+- The **scatter plot reveals 4-dimensional profitability** - sales, COGS, order volume,
   and region in a single view. Customers in the upper-right quadrant (high sales, higher COGS)
   warrant margin management attention
 - **Karsing** has 324 order volumes but lower total sales - a high-frequency, lower-value
@@ -217,7 +217,7 @@ Sum({$<Year={'$(=Max(Year)-1)'}>} LineSalesAmount)) - 1
 
 | Property | Value |
 |---|---|
-| Selection saved | January 2024 — March 2024 |
+| Selection saved | January 2024 - March 2024 |
 | Primary use case | EMEA regional Q1 performance review |
 | Behavior | All charts, KPIs and map update simultaneously on apply |
 
@@ -233,7 +233,7 @@ Sum({$<Year={'$(=Max(Year)-1)'}>} LineSalesAmount)) - 1
 ### 2024 New Customers Analysis
 *Selections applied: Year = 2024 | Customer Type = New*
 
-Built using QCA's **snapshot and storytelling** feature — all slides were captured with
+Built using QCA's **snapshot and storytelling** feature - all slides were captured with
 active selections, making this presentation-ready without any external tools.
 
 ---
@@ -248,7 +248,7 @@ active selections, making this presentation-ready without any external tools.
 - **EMEA leads new customer acquisition** with ~$5M in sales
 - The USA and Germany are the darkest on the heatmap - top new customer markets
 - Brazil shows significant new customer activity in South America
-- Margin tracks proportionally across all regions — **no region is being discounted to win new business**
+- Margin tracks proportionally across all regions - **no region is being discounted to win new business**
 
 ---
 
@@ -275,7 +275,7 @@ active selections, making this presentation-ready without any external tools.
 **Insights:**
 - **YoY Sales 2024 vs. 2023: +7%** - solid, sustainable growth in the new customer segment
 - This 7% in 2024 laid the foundation for the **explosive 142% growth seen in 2025**
-- **Matradi leads** new customers at **$840,000** — a significant account
+- **Matradi leads** new customers at **$840,000** - a significant account
 - Acer ($508k) and Boston and Albany Railroad Company ($418k) follow
 - Total new customer sales: **$9.27M** across 9,034 order volumes
 - **Target spikes** in the bar chart driven by a single product group -
@@ -300,11 +300,11 @@ active selections, making this presentation-ready without any external tools.
 7. Navigate through the 4 sheets using the arrow controls at the top right
 
 ### Recommended Viewing Order
-1. 🌍 **Regional Sales** — start here for the big picture
-2. 📦 **Product Sales Overview** — use the Year filter to explore by year
-3. 🗺️ **Product Overview** — click into the treemap to drill down
-4. 👥 **Customer Analysis** — use the Customer/Country filters to focus on segments
-5. 📖 **Story** — open from the hamburger menu → Stories → Nutra Green Story #1
+1. 🌍 **Regional Sales** - start here for the big picture
+2. 📦 **Product Sales Overview** - use the Year filter to explore by year
+3. 🗺️ **Product Overview** - click into the treemap to drill down
+4. 👥 **Customer Analysis** - use the Customer/Country filters to focus on segments
+5. 📖 **Story** - open from the hamburger menu → Stories → Nutra Green Story #1
 
 ---
 
@@ -316,16 +316,16 @@ active selections, making this presentation-ready without any external tools.
 | **Master Dimensions** | Customer Type, Products drill-down, Year |
 | **Master Measures** | Sales, Margin, Order Volume, Sales CY, Sales PY, YoY Sales, Avg COGS, Num Customers |
 | **Set Analysis** | Sales PY and YoY Sales expressions |
-| **Dynamic Labels** | YoY Sales KPI — shows current and prior year dynamically |
-| **Map Visualization** | Sales by Country — area layer colored by Sales master measure |
+| **Dynamic Labels** | YoY Sales KPI - shows current and prior year dynamically |
+| **Map Visualization** | Sales by Country - area layer colored by Sales master measure |
 | **Drill-down Dimension** | Product Group → Sub Group → Item Desc |
 | **Data Manager** | RegionPopulation.xlsx loaded and associated via Region field |
-| **Bookmarks** | Regional Sales by Month and Year — Q1 2024 EMEA selection |
-| **Storytelling & Snapshots** | 2024 New Customers Analysis — 3 slides |
+| **Bookmarks** | Regional Sales by Month and Year - Q1 2024 EMEA selection |
+| **Storytelling & Snapshots** | 2024 New Customers Analysis - 3 slides |
 | **Filter Panes** | Year, Customer, Country |
 | **Reference Lines** | $80k Sales Target in Customer bar chart |
 | **Pie Chart Radius** | % Customers radius driven by Max(Population) |
-| **Scatter Plot** | 4-dimensional customer view — Sales, Avg COGS, Order Volume, Region |
+| **Scatter Plot** | 4-dimensional customer view - Sales, Avg COGS, Order Volume, Region |
 
 ---
 
