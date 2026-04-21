@@ -13,7 +13,7 @@
 > and the 2024 New Customers story. 
 > **Watch the demo before exploring the app** to understand the business context and key insights.
 >
-> 📹 `[Nutra_Green_Sales_App_Demo.mp4](https://youtu.be/H9ZTbhNRDT8)`
+> 📹 `https://youtu.be/H9ZTbhNRDT8`
 
 ---
 
